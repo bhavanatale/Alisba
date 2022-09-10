@@ -19,6 +19,5 @@ export class HistoryPage implements OnInit {
   //   console.log(res);
   // })
   }
-  
 
 }
