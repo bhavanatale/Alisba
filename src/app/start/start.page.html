@@ -1,0 +1,45 @@
+<ion-header class="ion-no-border">
+    <ion-toolbar>
+        <!-- <ion-buttons slot="start" class="ion-no-margin">
+          <ion-back-button defaultHref="/" icon="chevron-back" mode="md" class="btn-back"></ion-back-button>
+      </ion-buttons> -->
+        <ion-title header-title></ion-title>
+    </ion-toolbar>
+</ion-header>
+<ion-content>
+    <!-- ==============
+          1nd Card
+       ============== -->
+    <div style="margin-top: 5%" align="center">
+        <img class="scale-up-center" style="width: 60%" src="assets/logo.png" alt="" /><br><br>
+
+    </div>
+    <ion-grid style="margin-top: 7vh;">
+        <!-- <p class="accont-label ion-text-center">Don't have a booker account?</p> -->
+        <a class="ion-text-center btn-signin">SignIn Now</a>
+        <!-- <a class="ion-text-center btn-signin">Signup Now</a> -->
+        <ion-row>
+            <ion-col size="6">
+                <ion-card class="card" routerLink="/signin">
+                    <div class="flex justify-between" align="center">
+                        <div class="bg-green-400 rounded-br-lg  h-6 w-50" style="color: white;font-weight:bold">
+                            <p class="text-white text-xs p-1">User</p>
+                        </div>
+                    </div>
+                </ion-card>
+            </ion-col>
+            <ion-col size="6">
+                <ion-card class="card" routerLink="/vendor-signup">
+                    <div class="flex justify-between" align="center">
+                        <div class="bg-green-400 rounded-br-lg  h-6 w-50" style="color: white;font-weight:bold">
+                            <p class="text-white text-xs p-1">Vendor</p>
+                        </div>
+                    </div>
+                </ion-card>
+            </ion-col>
+        </ion-row>
+    </ion-grid>
+
+
+
+</ion-content>
